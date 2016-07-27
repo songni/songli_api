@@ -1,0 +1,10 @@
+/.sass-cache
+/.tmp
+/node_modules
+.idea
+/public/js
+/public/.DS_Store
+**/.DS_Store
+.DS_Store?
+.DS_Store
+
