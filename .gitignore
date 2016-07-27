@@ -1,3 +1,5 @@
+**.sass-cache**
+**.tmp**
 /.sass-cache
 /.tmp
 /node_modules
