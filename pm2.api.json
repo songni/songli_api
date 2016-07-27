@@ -1,0 +1,23 @@
+{
+	"apps": [
+		{
+			"name": "api",
+			"cwd": "/root/git/songni/api",
+			"script": "api.js",
+			"log_date_format": "YYYY-MM-DD HH:mm Z",
+			"ignore_watch": [
+				"[\\/\\\\]\\./",
+				"node_modules",
+				"data",
+				".git"
+			],
+			"merge_logs": true,
+			"exec_mode": "fork_mode",
+			"instances": 0,
+			"env": {
+				"NODE_ENV": "production",
+				"NODE_DEBUG": "request"
+			}
+		}
+	]
+}

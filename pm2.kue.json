@@ -1,0 +1,23 @@
+{
+	"apps": [
+		{
+			"name": "kue",
+			"cwd": "/root/git/songni/api",
+			"script": "kue.js",
+			"log_date_format": "YYYY-MM-DD HH:mm Z",
+			"ignore_watch": [
+				"[\\/\\\\]\\./",
+				"node_modules",
+				"data",
+				".git"
+			],
+			"merge_logs": true,
+			"exec_mode": "cluster_mode",
+			"instances": 0,
+			"env": {
+				"NODE_ENV": "production",
+				"NODE_DEBUG": "request"
+			}
+		}
+	]
+}
