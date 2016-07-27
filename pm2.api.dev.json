@@ -2,7 +2,7 @@
 	"apps": [
 		{
 			"name": "api-dev",
-			"cwd": "/root/git/songni/api",
+			"cwd": "/root/git/songni/songli_api",
 			"script": "api.js",
 			"log_date_format": "YYYY-MM-DD HH:mm Z",
 			"watch": true,
